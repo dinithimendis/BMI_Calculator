@@ -27,3 +27,11 @@ body {
     transition: 0.4s;
     transform: scale(1.02);
 }
+
+.row-one {
+    padding: 20px;
+}
+
+.row-two {
+    padding: 20px;
+}
