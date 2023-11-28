@@ -106,3 +106,16 @@ body {
 .container input:checked ~ .checkmark {
     background-color: #289df6;
 }
+
+h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+    font-style: oblique;
+}
+
+h3 b {
+    font-size: 32px;
+    font-weight: 300;
+}
