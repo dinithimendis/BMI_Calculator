@@ -100,7 +100,7 @@ body {
 }
 
 .container:hover input ~ .checkmark {
-    background-color: cyan;
+    background: linear-gradient(#289df6, #dbeffe);
 }
 
 .container input:checked ~ .checkmark {
@@ -118,4 +118,24 @@ h3 {
 h3 b {
     font-size: 32px;
     font-weight: 300;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
