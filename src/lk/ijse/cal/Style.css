@@ -8,18 +8,22 @@ body {
     height: 100vh;
     padding: 0;
     border: 0;
-    background: linear-gradient(to bottom right, #003366, #eef2f3, #1ed797);
+    background: url("asssets/background.jpg");
+    background-size: cover;
+    /*background: linear-gradient(to bottom right, #003366, #eef2f3, #1ed797);*/
+    overflow: hidden;
 }
 
 .form {
     background-color: #fff;
-    height: 240px;
+    height: 340px;
     width: 500px;
     border-radius: 20px;
-    margin: 20px auto 20px auto;
+    margin: 40px auto 40px auto;
     display: block;
     border: solid 2px #081b29;
     box-shadow: 0 0 40px 0 #ddd;
+
 }
 
 .form:hover {
@@ -40,11 +44,12 @@ body {
     width: 80px;
     height: 30px;
     border-radius: 10px;
-    background: linear-gradient(to bottom right, #eef2f3, #a4dceb);
+    background: linear-gradient(to bottom right, #eef2f3, #7b6433);
     border: none;
     outline: none;
     padding: 5px 10px;
     cursor: pointer;
+    text-align: center;
 }
 
 .text-input:last-child {
@@ -52,7 +57,7 @@ body {
 }
 
 .text-input:hover {
-    background: linear-gradient(to bottom right, #a4dceb, #eef2f3);
+    background: linear-gradient(to bottom right, #7b6433, #eef2f3);
 }
 
 .submit {
@@ -60,7 +65,7 @@ body {
     border-radius: 10px;
     height: 40px;
     width: 100px;
-    background-color: #289df6;
+    background-color: #7b6433;
     color: #fff;
     margin: auto;
     display: block;
@@ -95,29 +100,30 @@ body {
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #dbeffe;
+    background: linear-gradient(#7b6433, #dbeffe);
     border-radius: 50%;
 }
 
 .container:hover input ~ .checkmark {
-    background: linear-gradient(#289df6, #dbeffe);
+    background: #7b6433;
 }
 
 .container input:checked ~ .checkmark {
-    background-color: #289df6;
+    background: #003366;
 }
 
 h3 {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 30px;
+    font-weight: 1000 !important;
     text-align: center;
     padding: 15px;
-    font-style: oblique;
+    color: #ffffff ;
 }
 
 h3 b {
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 36px;
+    font-weight: 500 !important;
+    color: #ffffff;
 }
 
 .checkmark:after {
@@ -138,4 +144,26 @@ h3 b {
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+}
+
+h1 {
+    width: 250px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 700 !important;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    background: white;
+    margin-left: 570px;
+}
+
+h2 {
+    margin-left: 620px;
+    width: 150px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    background: #fff;
 }
