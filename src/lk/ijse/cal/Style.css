@@ -54,3 +54,19 @@ body {
 .text-input:hover {
     background: linear-gradient(to bottom right, #a4dceb, #eef2f3);
 }
+
+.submit {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #a4dceb;
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #003366;
+}
