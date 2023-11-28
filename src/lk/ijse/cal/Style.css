@@ -60,7 +60,7 @@ body {
     border-radius: 10px;
     height: 40px;
     width: 100px;
-    background-color: #a4dceb;
+    background-color: #289df6;
     color: #fff;
     margin: auto;
     display: block;
@@ -68,7 +68,7 @@ body {
     cursor: pointer;
 }
 .submit:hover {
-    background-color: #003366;
+    background-color: #a4dceb;
 }
 
 .text {
@@ -87,4 +87,22 @@ body {
 .container input {
     position: absolute;
     opacity: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #dbeffe;
+    border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: cyan;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #289df6;
 }
