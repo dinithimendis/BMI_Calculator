@@ -8,7 +8,7 @@ body {
     height: 100vh;
     padding: 0;
     border: 0;
-    background: linear-gradient(to bottom right, #003366, #eef2f3);
+    background: linear-gradient(to bottom right, #003366, #eef2f3, #1ed797);
 }
 
 .form {
@@ -34,4 +34,23 @@ body {
 
 .row-two {
     padding: 20px;
+}
+
+.text-input {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #eef2f3, #a4dceb);
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.text-input:last-child {
+    margin-bottom: 35px;
+}
+
+.text-input:hover {
+    background: linear-gradient(to bottom right, #a4dceb, #eef2f3);
 }
